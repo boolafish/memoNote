@@ -1,0 +1,58 @@
+body {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif,'Open Sans', sans-serif;
+	color: #585858 ;
+	font-weight: 300;
+	overflow-y:scroll;
+}
+p
+{
+    padding:0;
+    margin: 2px;
+}
+#bg
+{
+    background-image:url(../pic/bg.jpg);
+    background-size:cover;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index:0;
+}
+
+#allMemoNote
+{
+    position: absolute;
+    min-height: 80%;
+    width: 60%;
+    margin: 0 0 0 -30%;
+    left: 53%;
+    overflow: hidden;
+}
+.memoNote
+{
+    float: left;
+    width: 320px;
+    height: 180px;
+    margin: 1% 0% 1% 10% ;
+    overflow-y: scroll;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.del
+{
+    position:absolute;
+    width:320px;
+    height:180px;
+    text-align:center;
+    color:white;
+    background-color:rgba(10%, 20%, 10%, 0.8);
+    font-size:2em;
+    display:none;
+}
+    .del:hover
+    {
+        color:yellow;
+    }

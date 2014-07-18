@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Memo Note</title>
+  	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  	<link href="css/allNote.css" rel="stylesheet">
+  	<link href="css/nav.css" rel="stylesheet">
+  	<link href="css/loader.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/allNote.js"></script>
+</head>
+<body>
+    <div id="bg"></div>
+	<!-- NAV -->
+	<nav id="nav">  
+		<ul>
+		    <li><img id="headImg" src="http://img1.wikia.nocookie.net/__cb20090901163011/uncyclopedia/images/e/eb/Blank.jpg" /></li>
+		    <br>
+		    <li><a href="allNote.html"><i class="fa fa-folder-open"></i> &nbsp; &nbsp;  all</a></li>
+		    <li><a href="note.html"> <i class="fa fa-file"></i>&nbsp; &nbsp; new</a></li>
+		    <li onclick="makeDel()" ><a hreh="#"><i class="fa fa-trash-o"></i>&nbsp; &nbsp; del</a></li>
+		</ul>
+	</nav>
+	
+	<!--
+	<div id="title">
+	    <h>TITLE</h>
+	</div>
+	-->
+	<!-- memo note template -->
+	<div id="allMemoNote">
+    	<h style="color:white; position:fixed; font-size:2em; top:50%; text-align:center;"> You Have No Notes Yet </h>
+	</div>
+	
+	<!--- loading animation -->
+	<div class = "loader">
+    	<div class="windows8">
+    	    <h>LOADING...</h>
+    	    <br><br>
+            <div class="wBall" id="wBall_1">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_2">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_3">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_4">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_5">
+                <div class="wInnerBall"></div>
+            </div>
+        </div> 
+	</div>
+	
+</body>
+
+</html>
+
